@@ -450,6 +450,232 @@ body{
 .others-phone-wrap{
     display: none;
 }
+@media only screen and (min-width:280px){
+    .header{
+        flex-direction:column;
+    }
+    .icons{
+        margin-left:0px;
+    }
+    .icons img{
+        margin-right:20px;
+    }
+    .icons hr{
+        display:none;
+    }
+    .join-2 p{
+        margin-right:10px;
+        font-size:80%;
+    }
+    .join-now{
+        margin-left:-150px;
+        margin-top:50px;
+    }
+    #logo{
+        height:30px;
+        margin-top:-20px;
+        margin-left:16px;
+    }
+    #signin{
+        width:80px;
+        height:40px;
+    }
+    .topwrap{
+        margin-left:0px;
+        display:inline-block;
+    }
+    .welcome-head h2{
+        font-size:210%;
+        margin-bottom: 30px;
+        margin-left:16px;
+    }
+    #Username{
+        width:310px;
+        margin-left:16px;
+    }
+    #password{
+        width:310px;
+        margin-left:16px;
+    }
+    .form a{
+        margin-left:20px;
+    }
+    #sign-2{
+        width:325px;
+        margin-left:16px;
+    }
+    #google{
+        width:325px;
+        margin-left:16px;
+    }
+    .phone-line{
+        margin-left: 16px;
+        width:200px;
+    }
+    #top-right{
+        height:220px;
+    }
+    .rec-1{
+        display:inline-block;
+        padding-left:0px;
+        height:600px;
+    }
+    .explore h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    .topics{
+        margin-left:16px;
+    }
+    .rec-2{
+        display:inline-block;
+        padding-left:0px;
+        height:730px;
+    }
+    .job h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    .searches{
+        margin-left:16px;
+    }
+    .rec-3{
+        display:inline-block;
+        padding-left:0px;
+        height: 300px;
+    }
+    .post h2{
+        margin-left:16px;
+         font-size:230%;
+    }
+    #job{
+        margin-left:130px;
+        margin-top: -10px;
+    }
+    .rec-4{
+        display:inline-block;
+        padding-left:0px;
+        height: 750px;
+        width: 360px;
+    }
+    .letright h2{
+        margin-top:-1px;
+        margin-top: 40px;
+        font-size: 230%;
+        margin-left:16px;
+    }
+    .letright p{
+        font-size:150%;
+        font-weight:100;
+        margin-left:16px;
+    }
+    #people-image{
+        margin-top:-10px;
+        margin-top:20px;
+        height:320px;
+        width:320px;
+        margin-left:16px
+    }
+    .rec-5{
+        display:inline-block;
+        padding-left:0px;
+    }
+    #connect{
+        height:250px;
+        margin-left:16px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .connect h2{
+        font-size:200%;
+        margin-left:16px;
+    }
+    #find{
+        margin-left:66px;
+    }
+    #learn-skill{
+         height:280px;
+        margin-left:46px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .learn h2{
+         font-size:180%;
+        margin-left:16px;
+    }
+    #skill{
+        margin-left:16px;
+        width:320px;
+    }
+    .join{
+        margin-left:16px;
+        position:relative;
+    }
+    .join h2{
+        font-size:180%;
+        margin-top:70px;
+    }
+    #get-started{
+        margin-left:80px;
+        margin-bottom: 60px;
+    }
+    .wide-pic{
+        display:none;
+    }
+    .footer{
+        flex-direction:column;
+        height: 935px;
+    }
+    .general{
+        margin-left:30px;
+    }
+    .browse{
+         margin-left:30px;
+    }
+    .business-solutions{
+         margin-left:30px;
+    }
+    .directories{
+         margin-left:30px;
+    }
+    .others{
+        display: none;
+    }
+    .others-phone-wrap{
+        display: contents;
+        display: flex;
+        flex-direction: row;
+    }
+    .others-phone-wrap p{
+        font-family: sans-serif;
+        font-size: 81%;
+        font-weight: 500;
+        color: #3a2721;
+    }
+    .others-phonewrap-2{
+      margin-top: 12px;
+      margin-left:50px;
+    }
+    .others-phone-1{
+        margin-left:10px;
+    }
+    .others-phone-1 p{
+        margin-left:40px;
+    }
+
+    .logo-also{
+        display: none;
+        margin-left:-50px;
+    }
+    #logobg{
+        margin-top: 8px;
+        margin-left:-10px;
+    }
+    .bottom{
+        justify-content: left;
+        margin-left:-20px;
+    }
+}
 @media only screen and (min-width:360px){
     .header{
         flex-direction:column;
