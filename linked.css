@@ -1,0 +1,2208 @@
+body{
+    margin: 0;
+   padding:0;
+   box-sizing: border-box;
+}
+.header{
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 420px;
+}
+.icons p{
+    font-size: 80% ;
+    font-family:sans-serif ;
+    font-weight:100 ;
+    color:#666;
+}
+.icons img{
+    margin-left: 45px;
+    height: 22px;
+    margin-bottom: -15px;;
+}
+.discover p{
+    margin-left:30px;
+}
+.people p{
+    margin-left:35px;
+}
+.learning p{
+    margin-left:36px;
+}
+.job-icon p{
+    margin-left:46px;
+}
+.icons hr{
+    margin-left:20px
+}
+.join-now{
+    display: flex;
+    flex-direction: row;
+   margin-left:20px;
+}
+.join-2 p{
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 97%;
+}
+
+ #signin{
+    margin-top: 5px;
+    color: #0a66c2;
+    background-color: #fff;
+    border: 2px solid #0a66c2;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    font-weight: bold;
+
+}
+.phone-line{
+    display: contents;
+    display:grid;
+    grid-template-columns: 155px 30px 155px;
+    width:100%;
+    margin-top:-15px;
+    font-family: sans-serif;
+    font-size: 80%;
+}
+.phone p{
+    color:rgb(128 132 140);
+}
+.or{
+ margin-top: -15px;
+ color: #53352d;
+
+}
+.topwrap{
+    display: grid;
+    grid-template-columns: 550px 300px;
+    justify-content:left;
+    margin-left:380px;
+}
+.welcome-head h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8f5849;
+    font-size: 180%;
+    font-weight: 140;
+    margin-top:50px;
+}
+#Username{
+    height:25px ;
+    width: 350px;
+    margin-bottom:10px ;
+    padding:10px ;
+    border: 1px solid #666666;
+    border-radius: 1px;
+    outline: none;
+    transition: 0.5s;
+}
+#Username:focus{
+    border: 1px solid #2977c9;
+}
+#Username::placeholder{
+    font-size: 118%;
+}
+#password{
+    height: 25px ;
+    width:350px ;
+    margin-bottom: 20px;
+    padding:10px ;
+    border: 1px solid #666666;
+    border-radius: 1px;
+    outline: none;
+    transition: 0.5s;
+}
+#password::placeholder{
+    font-size: 118%;
+}
+#password:focus{
+    border: 1px solid #2977c9;
+}
+.form a{
+    font-family: sans-serif;
+    color: #191919;
+    text-decoration: none;
+    font-size: 100;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+#sign-2{
+    height: 55px ;
+    width:370px ;
+    margin-top: 15px;
+    margin-bottom:45px ;
+    color: #fff;
+    background-color:#2977c9 ;
+    border: 1px solid #2977c9 ;
+    border-radius: 50px ;
+    font-size:larger;
+    font-family: sans-serif;
+}
+#google{
+    display: grid;
+    grid-template-columns: 30px 200px;
+    justify-content: center;
+    height: 62px ;
+    width:370px;
+    margin-top: -0px;
+    color:#666666  ;
+    background-color: #fff ;
+    border: 1px solid #666666 ;
+    border-radius: 50px ;
+    font-size:larger;
+    font-family: sans-serif ;
+}
+#google-pic{
+    margin-top: 19px;  
+}
+#top-right{
+    height:560px;
+    margin-top:50px;
+    margin-left:50px;
+}
+.rec-1{
+    display: grid;
+    grid-template-columns: 400px 500px;
+    grid-gap:80px;
+    background-color: #f3f2f0;
+    height: 400px;
+    padding-left: 380px;
+}
+.rec-1 p{
+    color: #616160;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.explore h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #181818;
+    font-size: 300%;
+    font-weight: 100;
+}
+.topics button{
+    height: 54px ;
+    padding: 17px;
+    margin: 6px;
+    border: 1px solid #3d3d3c ;
+    border-radius: 30px;
+    color: #3d3d3c ;
+    background-color: #f3f2f0;
+    font-size: large;
+}
+.rec-2{
+    display: grid;
+    grid-template-columns: 400px 650px;
+    grid-gap:80px;
+    background-color: #ffffff;
+    height: 400px;
+    padding-left: 380px;
+}
+.rec-2 p{
+    color: #616160;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.job h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #191919;
+    font-size: 290%;
+    font-weight: 100;
+}
+.searches button{
+    height: 54px ;
+    padding: 17px;
+    margin: 6px;
+    border: 1px solid #404040;
+    border-radius: 30px;
+    color:#404040 ;
+    background-color: #ffffff;
+    font-size: large;
+}
+.rec-3{
+    display: grid;
+    grid-template-columns: 400px 650px;
+    grid-gap:80px;
+    background-color: #f1ece5;
+    height: 300px;
+    padding-left: 380px;
+}
+.rec-3 p{
+    color: #616160;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.post h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b24020;
+    font-size: 250%;
+    font-weight: 100;
+    margin-top: 70px;
+}
+.postjob button{
+    height: 54px ;
+    padding: 17px;
+    margin: 6px;
+    border: 1px solid #0a66c2;
+    border-radius: 30px;
+    color:#0a66c2 ;
+    background-color: #f1ece5;
+    font-size: large;
+    margin-top:110px;
+}
+.rec-4{
+    display: grid;
+    grid-template-columns: 400px 650px;
+    grid-gap:240px;
+    background-color: #f3f2f0;
+    height: 800px;
+    padding-left: 380px;
+}
+.letright h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b24020;
+    font-size: 250%;
+    font-weight: 100;
+    margin-top: 200px;
+}
+.letright p{
+    font-family: sans-serif;
+    color: #181818;
+    font-size: 170%;
+    font-weight: 100;
+}
+#people-image{
+    height: 400px ;
+    width: 420px ;
+    margin-top: 200px;
+}
+.rec-5{
+    display: grid;
+    grid-template-columns: 400px 350px;
+    grid-gap:240px;
+    background-color: #ffffff;
+    height: 800px;
+    padding-left: 380px;
+}
+#connect{
+   height: 250px ;
+   margin-top: 200px;
+}
+.connect h2{
+    font-size: 230%;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #404040;
+}
+.connect button{
+    height: 54px ;
+    padding: 19px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 6px;
+    border: 1px solid #404040;
+    border-radius: 30px;
+    color:#404040 ;
+    background-color: #ffffff;
+    font-size: large;
+}
+#learn-skill{
+    height: 250px;
+    margin-top: 200px;
+}
+.learn h2{
+    font-size: 230%;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.learn select{
+    height: 59px ;
+    padding: 17px;
+    padding-right: 25px;
+    margin: 6px;
+    border: 1px solid #404040;
+    border-radius: 1px;
+    color:#404040;
+    background-color: #ffffff;
+    font-size: large;
+}
+.join{
+    display: grid;
+    justify-content: left;
+    margin-left: 380px;
+    position: absolute;  
+    margin-bottom: -30px;
+}
+.join h2{
+    font-size: 260%;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.join button{
+    height: 54px;
+    width:180px;
+    padding: 17px;
+    margin: 6px;
+    border: 1px solid #191919;
+    border-radius: 30px;
+    color:#ffffff ;
+    background-color: #191919;
+    font-size: large;
+}
+#wide-pic{
+    width: 1730px;
+    margin-bottom: 10px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f3f2f0 ;
+    height:450px;
+    padding-top: 30px;
+}
+#logo-footer{
+    height: 37px ;
+    width: 130px;
+    background-color:#f3f2f0;
+    margin-right: 120px;
+    margin-left:130px;
+}
+.footer p{
+    font-size: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.general{
+  margin-right: 120px;
+}
+.general a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #616160;
+    font-size: 91% ;
+    font-family: sans-serif;
+    font-weight:bold ;
+}
+.browse{
+    margin-right: 120px;
+}
+.browse a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    color: #616160;
+    font-size: 91% ;
+    font-family: sans-serif;
+    font-weight:bold ;
+}
+.business-solutions{
+    margin-right: 120px;
+}
+.business-solutions a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    color: #616160;
+    font-size: 91% ;
+    font-family: sans-serif;
+    font-weight:bold ;
+}
+.directories{
+    margin-right: 120px;
+}
+.directories a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    color: #616160;
+    font-size: 91% ;
+    font-family: sans-serif;
+    font-weight:bold ;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logobw-1{
+   margin-top: 8px;
+   margin-right:10px;
+   margin-left:40px;
+}
+.bottom p{
+    font-family: sans-serif;
+    font-size: 81%;
+    font-weight: 500;
+    color: #3a2721;
+}
+.others-phone-wrap{
+    display: none;
+}
+@media only screen and (min-width:360px){
+    .header{
+        flex-direction:column;
+    }
+    .icons{
+        margin-left:0px;
+    }
+    .icons img{
+        margin-right:20px;
+    }
+    .icons hr{
+        display:none;
+    }
+    .join-2 p{
+        margin-right:10px;
+        font-size:80%;
+    }
+    .join-now{
+        margin-left:-150px;
+        margin-top:50px;
+    }
+    #logo{
+        height:30px;
+        margin-top:-20px;
+        margin-left:16px;
+    }
+    #signin{
+        width:80px;
+        height:40px;
+    }
+    .topwrap{
+        margin-left:0px;
+        display:inline-block;
+    }
+    .welcome-head h2{
+        font-size:210%;
+        margin-bottom: 30px;
+        margin-left:16px;
+    }
+    #Username{
+        width:310px;
+        margin-left:16px;
+    }
+    #password{
+        width:310px;
+        margin-left:16px;
+    }
+    .form a{
+        margin-left:20px;
+    }
+    #sign-2{
+        width:325px;
+        margin-left:16px;
+    }
+    #google{
+        width:325px;
+        margin-left:16px;
+    }
+    .phone-line{
+        margin-left: 16px;
+        width:200px;
+    }
+    #top-right{
+        height:220px;
+    }
+    .rec-1{
+        display:inline-block;
+        padding-left:0px;
+        height:600px;
+    }
+    .explore h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    .topics{
+        margin-left:16px;
+    }
+    .rec-2{
+        display:inline-block;
+        padding-left:0px;
+        height:730px;
+    }
+    .job h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    .searches{
+        margin-left:16px;
+    }
+    .rec-3{
+        display:inline-block;
+        padding-left:0px;
+        height: 300px;
+    }
+    .post h2{
+        margin-left:16px;
+         font-size:230%;
+    }
+    #job{
+        margin-left:130px;
+        margin-top: -10px;
+    }
+    .rec-4{
+        display:inline-block;
+        padding-left:0px;
+        height: 750px;
+        width: 360px;
+    }
+    .letright h2{
+        margin-top:-1px;
+        margin-top: 40px;
+        font-size: 230%;
+        margin-left:16px;
+    }
+    .letright p{
+        font-size:150%;
+        font-weight:100;
+        margin-left:16px;
+    }
+    #people-image{
+        margin-top:-10px;
+        margin-top:20px;
+        height:320px;
+        width:320px;
+        margin-left:16px
+    }
+    .rec-5{
+        display:inline-block;
+        padding-left:0px;
+    }
+    #connect{
+        height:250px;
+        margin-left:16px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .connect h2{
+        font-size:200%;
+        margin-left:16px;
+    }
+    #find{
+        margin-left:66px;
+    }
+    #learn-skill{
+         height:280px;
+        margin-left:46px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .learn h2{
+         font-size:180%;
+        margin-left:16px;
+    }
+    #skill{
+        margin-left:16px;
+        width:320px;
+    }
+    .join{
+        margin-left:16px;
+        position:relative;
+    }
+    .join h2{
+        font-size:180%;
+        margin-top:70px;
+    }
+    #get-started{
+        margin-left:80px;
+        margin-bottom: 60px;
+    }
+    .wide-pic{
+        display:none;
+    }
+    .footer{
+        flex-direction:column;
+        height: 935px;
+    }
+    .general{
+        margin-left:30px;
+    }
+    .browse{
+         margin-left:30px;
+    }
+    .business-solutions{
+         margin-left:30px;
+    }
+    .directories{
+         margin-left:30px;
+    }
+    .others{
+        display: none;
+    }
+    .others-phone-wrap{
+        display: contents;
+        display: flex;
+        flex-direction: row;
+    }
+    .others-phone-wrap p{
+        font-family: sans-serif;
+        font-size: 81%;
+        font-weight: 500;
+        color: #3a2721;
+    }
+    .others-phonewrap-2{
+      margin-top: 12px;
+      margin-left:50px;
+    }
+    .others-phone-1{
+        margin-left:10px;
+    }
+    .others-phone-1 p{
+        margin-left:40px;
+    }
+
+    .logo-also{
+        display: none;
+        margin-left:-50px;
+    }
+    #logobg{
+        margin-top: 8px;
+        margin-left:-10px;
+    }
+    .bottom{
+        justify-content: left;
+        margin-left:-20px;
+    }
+}
+@media only screen and (min-width:375px){
+    .header{
+        flex-direction:column;
+    }
+    .icons{
+        margin-left:0px;
+    }
+    .icons img{
+        margin-right:20px;
+    }
+    .icons hr{
+        display:none;
+    }
+    .join-2 p{
+        margin-right:10px;
+        font-size:80%;
+    }
+    .join-now{
+        margin-left:-150px;
+        margin-top:50px;
+    }
+    #logo{
+        height:30px;
+        margin-top:-20px;
+        margin-left:16px;
+    }
+    #signin{
+        width:80px;
+        height:40px;
+    }
+    .topwrap{
+        margin-left:0px;
+        display:inline-block;
+    }
+    .welcome-head h2{
+        font-size:210%;
+        margin-bottom: 30px;
+        margin-left:16px;
+    }
+    #Username{
+        width:320px;
+        margin-left:16px;
+    }
+    #password{
+        width:320px;
+        margin-left:16px;
+    }
+    .form a{
+        margin-left:20px;
+    }
+    #sign-2{
+        width:330px;
+        margin-left:16px;
+    }
+    #google{
+        width:330px;
+        margin-left:16px;
+    }
+    .phone-line{
+        margin-left: 16px;
+        width:200px;
+    }
+    #top-right{
+        height:220px;
+    }
+    .rec-1{
+        display:inline-block;
+        padding-left:0px;
+        height:600px;
+    }
+    .explore h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    .topics{
+        margin-left:16px;
+    }
+    .rec-2{
+        display:inline-block;
+        padding-left:0px;
+        height:680px;
+    }
+    .job h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    .searches{
+        margin-left:16px;
+    }
+    .rec-3{
+        display:inline-block;
+        padding-left:0px;
+        height: 300px;
+    }
+    .post h2{
+        margin-left:16px;
+         font-size:230%;
+    }
+    #job{
+        margin-left:130px;
+        margin-top: -10px;
+    }
+    .rec-4{
+        display:inline-block;
+        padding-left:0px;
+        height: 750px;
+        width: 375px;
+    }
+    .letright h2{
+        margin-top:-1px;
+        margin-top: 40px;
+        font-size: 230%;
+        margin-left:16px;
+    }
+    .letright p{
+        font-size:150%;
+        font-weight:100;
+        margin-left:16px;
+    }
+    #people-image{
+        margin-top:-10px;
+        margin-top:20px;
+        height:350px;
+        width:350px;
+        margin-left:16px
+    }
+    .rec-5{
+        display:inline-block;
+        padding-left:0px;
+    }
+    #connect{
+        height:250px;
+        margin-left:16px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .connect h2{
+        font-size:200%;
+        margin-left:16px;
+    }
+    #find{
+        margin-left:66px;
+    }
+    #learn-skill{
+         height:280px;
+        margin-left:46px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .learn h2{
+         font-size:200%;
+        margin-left:16px;
+    }
+    #skill{
+        margin-left:16px;
+        width:350px;
+    }
+    .join{
+        margin-left:16px;
+        position:relative;
+    }
+    .join h2{
+        font-size:180%;
+        margin-top:70px;
+    }
+    #get-started{
+        margin-left:80px;
+        margin-bottom: 60px;
+    }
+    .wide-pic{
+        display:none;
+    }
+    .footer{
+        flex-direction:column;
+        height: 935px;
+    }
+    .general{
+        margin-left:30px;
+    }
+    .browse{
+         margin-left:30px;
+    }
+    .business-solutions{
+         margin-left:30px;
+    }
+    .directories{
+         margin-left:30px;
+    }
+    .others{
+        display: none;
+    }
+    .others-phone-wrap{
+        display: contents;
+        display: flex;
+        flex-direction: row;
+    }
+    .others-phone-wrap p{
+        font-family: sans-serif;
+        font-size: 81%;
+        font-weight: 500;
+        color: #3a2721;
+    }
+    .others-phonewrap-2{
+      margin-top: 12px;
+      margin-left:50px;
+    }
+    .others-phone-1{
+        margin-left:10px;
+    }
+    .others-phone-1 p{
+        margin-left:40px;
+    }
+
+    .logo-also{
+        display: none;
+        margin-left:-50px;
+    }
+    #logobg{
+        margin-top: 8px;
+        margin-left:-10px;
+    }
+    .bottom{
+        justify-content: left;
+        margin-left:-20px;
+    }
+}
+
+@media only screen and (min-width:390px){
+    .header{
+        flex-direction:column;
+    }
+    .icons{
+        margin-left:0px;
+    }
+    .icons img{
+        margin-right:20px;
+    }
+    .icons hr{
+        display:none;
+    }
+    .join-2 p{
+        margin-right:10px;
+        font-size:80%;
+    }
+    .join-now{
+        margin-left:-150px;
+        margin-top:50px;
+    }
+    #logo{
+        height:30px;
+        margin-top:-20px;
+        margin-left:16px;
+    }
+    #signin{
+        width:80px;
+        height:40px;
+    }
+    .topwrap{
+        margin-left:0px;
+        display:inline-block;
+    }
+    .welcome-head h2{
+        font-size:210%;
+        margin-bottom: 30px;
+        margin-left:16px;
+    }
+    #Username{
+        width:340px;
+        margin-left:16px;
+    }
+    #password{
+        width:340px;
+        margin-left:16px;
+    }
+    .form a{
+        margin-left:20px;
+    }
+    #sign-2{
+        width:360px;
+        margin-left:16px;
+    }
+    #google{
+        width:360px;
+        margin-left:16px;
+    }
+    .phone-line{
+        margin-left: 16px;
+    }
+    #top-right{
+        height:220px;
+    }
+    .rec-1{
+        display:inline-block;
+        padding-left:0px;
+        height:600px;
+    }
+    .explore h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    .topics{
+        margin-left:16px;
+    }
+    .rec-2{
+        display:inline-block;
+        padding-left:0px;
+        height:600px;
+    }
+    .job h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    .searches{
+        margin-left:16px;
+    }
+    .rec-3{
+        display:inline-block;
+        padding-left:0px;
+        height: 300px;
+    }
+    .post h2{
+        margin-left:16px;
+         font-size:230%;
+    }
+    #job{
+        margin-left:130px;
+        margin-top: -10px;
+    }
+    .rec-4{
+        display:inline-block;
+        padding-left:0px;
+        height: 750px;
+        width: 390px;
+    }
+    .letright h2{
+        margin-top:-1px;
+        margin-top: 40px;
+        font-size: 230%;
+        margin-left:16px;
+    }
+    .letright p{
+        font-size:150%;
+        font-weight:100;
+        margin-left:16px;
+    }
+    #people-image{
+        margin-top:-10px;
+        margin-top:20px;
+        height:350px;
+        width:350px;
+        margin-left:16px
+    }
+    .rec-5{
+        display:inline-block;
+        padding-left:0px;
+    }
+    #connect{
+        height:250px;
+        margin-left:16px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .connect h2{
+        font-size:200%;
+        margin-left:16px;
+    }
+    #find{
+        margin-left:66px;
+    }
+    #learn-skill{
+         height:280px;
+        margin-left:46px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .learn h2{
+         font-size:200%;
+        margin-left:16px;
+    }
+    #skill{
+        margin-left:16px;
+        width:350px;
+    }
+    .join{
+        margin-left:16px;
+        position:relative;
+    }
+    .join h2{
+        font-size:180%;
+        margin-top:70px;
+    }
+    #get-started{
+        margin-left:80px;
+        margin-bottom: 60px;
+    }
+    .wide-pic{
+        display:none;
+    }
+    .footer{
+        flex-direction:column;
+        height: 935px;
+    }
+    .general{
+        margin-left:30px;
+    }
+    .browse{
+         margin-left:30px;
+    }
+    .business-solutions{
+         margin-left:30px;
+    }
+    .directories{
+         margin-left:30px;
+    }
+    .others{
+        display: none;
+    }
+    .others-phone-wrap{
+        display: contents;
+        display: flex;
+        flex-direction: row;
+    }
+    .others-phone-wrap p{
+        font-family: sans-serif;
+        font-size: 81%;
+        font-weight: 500;
+        color: #3a2721;
+    }
+    .others-phonewrap-2{
+      margin-top: 12px;
+      margin-left:50px;
+    }
+    .others-phone-1{
+        margin-left:10px;
+    }
+    .others-phone-1 p{
+        margin-left:40px;
+    }
+
+    .logo-also{
+        display: none;
+        margin-left:-50px;
+    }
+    #logobg{
+        margin-top: 8px;
+        margin-left:-10px;
+    }
+    .bottom{
+        justify-content: left;
+        margin-left:-20px;
+    }
+}
+
+@media only screen and (min-width:412px){
+    .header{
+        flex-direction:column;
+    }
+    .icons{
+        margin-left:0px;
+    }
+    .icons img{
+        margin-right:20px;
+    }
+    .icons hr{
+        display:none;
+    }
+    .join-2 p{
+        margin-right:10px;
+        font-size:80%;
+    }
+    .join-now{
+        margin-left:-150px;
+        margin-top:50px;
+    }
+    #logo{
+        height:30px;
+        margin-top:-20px;
+        margin-left:16px;
+    }
+    #signin{
+        width:80px;
+        height:40px;
+    }
+    .topwrap{
+        margin-left:0px;
+        display:inline-block;
+    }
+    .welcome-head h2{
+        font-size:210%;
+        margin-bottom: 30px;
+        margin-left:16px;
+    }
+    #Username{
+        width:350px;
+        margin-left:16px;
+    }
+    #password{
+        width:350px;
+        margin-left:16px;
+    }
+    .form a{
+        margin-left:20px;
+    }
+    #sign-2{
+        width:360px;
+        margin-left:16px;
+    }
+    #google{
+        width:360px;
+        margin-left:16px;
+    }
+    .phone-line{
+        margin-left: 16px;
+    }
+    #top-right{
+        height:220px;
+    }
+    .rec-1{
+        display:inline-block;
+        padding-left:0px;
+        height:600px;
+    }
+    .explore h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    .topics{
+        margin-left:16px;
+    }
+    .rec-2{
+        display:inline-block;
+        padding-left:0px;
+        height:600px;
+    }
+    .job h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    .searches{
+        margin-left:16px;
+    }
+    .rec-3{
+        display:inline-block;
+        padding-left:0px;
+        height: 300px;
+    }
+    .post h2{
+        margin-left:16px;
+         font-size:230%;
+    }
+    #job{
+        margin-left:130px;
+        margin-top: -10px;
+    }
+    .rec-4{
+        display:inline-block;
+        padding-left:0px;
+        height: 750px;
+        width: 412px;
+    }
+    .letright h2{
+        margin-top:-1px;
+        margin-top: 40px;
+        font-size: 230%;
+        margin-left:16px;
+    }
+    .letright p{
+        font-size:150%;
+        font-weight:100;
+        margin-left:16px;
+    }
+    #people-image{
+        margin-top:-10px;
+        margin-top:20px;
+        height:350px;
+        width:350px;
+        margin-left:16px
+    }
+    .rec-5{
+        display:inline-block;
+        padding-left:0px;
+    }
+    #connect{
+        height:250px;
+        margin-left:16px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .connect h2{
+        font-size:230%;
+        margin-left:16px;
+    }
+    #find{
+        margin-left:66px;
+    }
+    #learn-skill{
+         height:280px;
+        margin-left:46px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .learn h2{
+         font-size:230%;
+        margin-left:16px;
+    }
+    #skill{
+        margin-left:16px;
+        width:350px;
+    }
+    .join{
+        margin-left:16px;
+        position:relative;
+    }
+    .join h2{
+        font-size:180%;
+        margin-top:70px;
+    }
+    #get-started{
+        margin-left:80px;
+        margin-bottom: 60px;
+    }
+    .wide-pic{
+        display:none;
+    }
+    .footer{
+        flex-direction:column;
+        height: 935px;
+    }
+    .general{
+        margin-left:30px;
+    }
+    .browse{
+         margin-left:30px;
+    }
+    .business-solutions{
+         margin-left:30px;
+    }
+    .directories{
+         margin-left:30px;
+    }
+    .others{
+        display: none;
+    }
+    .others-phone-wrap{
+        display: contents;
+        display: flex;
+        flex-direction: row;
+    }
+    .others-phone-wrap p{
+        font-family: sans-serif;
+        font-size: 81%;
+        font-weight: 500;
+        color: #3a2721;
+    }
+    .others-phonewrap-2{
+      margin-top: 12px;
+      margin-left:50px;
+    }
+    .others-phone-1{
+        margin-left:10px;
+    }
+    .others-phone-1 p{
+        margin-left:40px;
+    }
+
+    .logo-also{
+        display: none;
+        margin-left:-50px;
+    }
+    #logobg{
+        margin-top: 8px;
+        margin-left:-10px;
+    }
+    .bottom{
+        justify-content: left;
+        margin-left:-20px;
+    }
+}
+
+@media only screen and (min-width:750px){ 
+    .header{
+        flex-direction:row;
+        justify-content: left;
+    }
+    .icons{
+        margin-left:0px;
+    }
+    .icons img{
+        margin-right:30px;
+    }
+    .icons hr{
+        display:none;
+    }
+    .join-2 p{
+        margin-right:10px;
+        font-size:80%;
+    }
+    .join-now{
+        margin-top:10px;
+        margin-left:40px;
+    }
+    #logo{
+        height:30px;
+        margin-top:10px;
+        margin-left:16px;
+        margin-right:20px;
+    }
+    #signin{
+        width:80px;
+        height:40px;
+    }
+    .topwrap{
+        margin-left:0px;
+        display:grid;
+        grid-template-columns: 400px 300px;
+        padding-bottom: 20px;
+    }
+    .welcome-head h2{
+        font-size:290%;
+        margin-bottom: 30px;
+        margin-left:16px;
+    }
+    #Username{
+        width:360px;
+        margin-left:16px;
+    }
+    #password{
+        width:360px;
+        margin-left:16px;
+    }
+    .form a{
+        margin-left:20px;
+    }
+    #sign-2{
+        width:370px;
+        margin-left:16px;
+    }
+    #google{
+        width:370px;
+        margin-left:16px;
+    }
+    .phone-line{
+        margin-left: 16px;
+    }
+    #top-right{
+        height:520px;
+        position:relative;
+    }
+    .rec-1{
+        display:inline-block;
+        padding-left:0px;
+        height:400px;
+    }
+    .explore h2{
+        font-size:290%;
+        margin-left:16px;
+    }
+    .topics{
+        margin-left:16px;
+    }
+    .rec-2{
+        display:inline-block;
+        padding-left:0px;
+        height:450px;
+    }
+    .job h2{
+        font-size:290%;
+        margin-left:16px;
+    }
+    .searches{
+        margin-left:16px;
+    }
+    .rec-3{
+        display:inline-block;
+        padding-left:0px;
+        height: 300px;
+    }
+    .post h2{
+        margin-left:16px;
+         font-size:290%;
+         margin-top: 20px;
+    }
+    #job{
+        margin-left:300px;
+        margin-top: -10px;
+    }
+    .rec-4{
+        display:inline-block;
+        padding-left:0px;
+        height: 750px;
+        width: 767px;
+    }
+    .letright h2{
+        margin-top:-1px;
+        margin-top: 40px;
+        font-size: 290%;
+        margin-left:16px;
+    }
+    .letright p{
+        font-size:150%;
+        font-weight:100;
+        margin-left:16px;
+    }
+    #people-image{
+        margin-top:-10px;
+        margin-top:20px;
+        height:350px;
+        width:350px;
+        margin-left:200px
+    }
+    .rec-5{
+        display:inline-block;
+        padding-left:0px;
+    }
+    #connect{
+        height:270px;
+        margin-left:200px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .connect h2{
+        font-size:230%;
+        margin-left:100px;
+    }
+    #find{
+        margin-left:260px;
+    }
+    #learn-skill{
+         height:280px;
+        margin-left:240px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .learn h2{
+         font-size:230%;
+        margin-left:100px;
+    }
+    #skill{
+        margin-left:200px;
+        width:350px;
+    }
+    .join{
+        margin-left:50px;
+        position:relative;
+    }
+    .join h2{
+        font-size:200%;
+        margin-top:100px;
+    }
+    #get-started{
+        margin-left:230px;
+        margin-bottom: 60px;
+    }
+    .footer{
+        flex-direction:row;
+        height: 435px;
+        width:768px;
+    }
+    .general{
+        margin-left:-50px;
+    }
+    .browse{
+        margin-left:-50px;
+    }
+    .business-solutions{
+         margin-left:-50px;
+    }
+    .directories{
+        margin-left:-50px;
+    }
+    .others{
+        display: contents;
+    }
+    .others-phone-wrap{
+        display: none;
+    }
+    .others-phone-wrap p{
+        font-family: sans-serif;
+        font-size: 81%;
+        font-weight: 500;
+        color: #3a2721;
+    }
+    .others-phonewrap-2{
+      margin-top: 12px;
+      margin-left:50px;
+    }
+    .others-phone-1{
+        margin-left:10px;
+    }
+    .others-phone-1 p{
+        margin-left:40px;
+    }
+
+    .logo-also{
+        display: none;
+        margin-left:-50px;
+    }
+    #logobg{
+        margin-top: 8px;
+        margin-left:-10px;
+    }
+    .bottom{
+        justify-content: left;
+        margin-left:-20px;
+    }
+}
+
+@media only screen and (min-width:820px){ 
+    .header{
+        flex-direction:row;
+        justify-content: left;
+    }
+    .icons{
+        margin-left:0px;
+    }
+    .icons img{
+        margin-right:30px;
+    }
+    .icons hr{
+        display:none;
+    }
+    .join-2 p{
+        margin-right:10px;
+        font-size:80%;
+    }
+    .join-now{
+        margin-top:10px;
+        margin-left:40px;
+    }
+    #logo{
+        height:30px;
+        margin-top:10px;
+        margin-left:16px;
+        margin-right:20px;
+    }
+    #signin{
+        width:80px;
+        height:40px;
+    }
+    .topwrap{
+        margin-left:0px;
+        display:grid;
+        grid-template-columns: 400px 300px;
+        padding-bottom: 20px;
+    }
+    .welcome-head h2{
+        font-size:290%;
+        margin-bottom: 30px;
+        margin-left:16px;
+    }
+    #Username{
+        width:360px;
+        margin-left:16px;
+    }
+    #password{
+        width:360px;
+        margin-left:16px;
+    }
+    .form a{
+        margin-left:20px;
+    }
+    #sign-2{
+        width:370px;
+        margin-left:16px;
+    }
+    #google{
+        width:370px;
+        margin-left:16px;
+    }
+    .phone-line{
+        margin-left: 16px;
+    }
+    #top-right{
+        height:520px;
+        position:relative;
+    }
+    .rec-1{
+        display:inline-block;
+        padding-left:0px;
+        height:400px;
+    }
+    .explore h2{
+        font-size:290%;
+        margin-left:16px;
+    }
+    .topics{
+        margin-left:16px;
+    }
+    .rec-2{
+        display:inline-block;
+        padding-left:0px;
+        height:450px;
+    }
+    .job h2{
+        font-size:290%;
+        margin-left:16px;
+    }
+    .searches{
+        margin-left:16px;
+    }
+    .rec-3{
+        display:inline-block;
+        padding-left:0px;
+        height: 300px;
+        width:820px;
+    }
+    .post h2{
+        margin-left:16px;
+         font-size:290%;
+         margin-top: 20px;
+    }
+    #job{
+        margin-left:300px;
+        margin-top: -10px;
+    }
+    .rec-4{
+        display:inline-block;
+        padding-left:0px;
+        height: 750px;
+        width: 820px;
+    }
+    .letright h2{
+        margin-top:-1px;
+        margin-top: 40px;
+        font-size: 290%;
+        margin-left:16px;
+    }
+    .letright p{
+        font-size:150%;
+        font-weight:100;
+        margin-left:16px;
+    }
+    #people-image{
+        margin-top:-10px;
+        margin-top:20px;
+        height:350px;
+        width:350px;
+        margin-left:200px
+    }
+    .rec-5{
+        display:inline-block;
+        padding-left:0px;
+    }
+    
+     #connect{
+        height:270px;
+        margin-left:200px;
+        margin-top:-1px;
+        margin-top: 14px;
+     }    
+    .connect h2{
+        font-size:230%;
+        margin-left:100px;
+    }
+    #find{
+        margin-left:260px;
+    }
+    #learn-skill{
+         height:280px;
+        margin-left:240px;
+        margin-top:-1px;
+        margin-top: 40px;
+    }
+    .learn h2{
+         font-size:230%;
+        margin-left:100px;
+    }
+    #skill{
+        margin-left:200px;
+        width:350px;
+    }
+    .join{
+        margin-left:50px;
+        position:relative;
+    }
+    .join h2{
+        font-size:200%;
+        margin-top:100px;
+    }
+    #get-started{
+        margin-left:230px;
+        margin-bottom: 60px;
+    }
+    .footer{
+        flex-direction:row;
+        height: 435px;
+        width:820px;
+    }
+    .general{
+        margin-left:-50px;
+    }
+    .browse{
+        margin-left:-50px;
+    }
+    .business-solutions{
+         margin-left:-50px;
+    }
+    .directories{
+        margin-left:-50px;
+    }
+    .others{
+        display: contents;
+    }
+    .others-phone-wrap{
+        display: none;
+    }
+    .others-phone-wrap p{
+        font-family: sans-serif;
+        font-size: 81%;
+        font-weight: 500;
+        color: #3a2721;
+    }
+    .others-phonewrap-2{
+      margin-top: 12px;
+      margin-left:50px;
+    }
+    .others-phone-1{
+        margin-left:10px;
+    }
+    .others-phone-1 p{
+        margin-left:40px;
+    }
+
+    .logo-also{
+        display: none;
+        margin-left:-50px;
+    }
+    #logobg{
+        margin-top: 8px;
+        margin-left:-10px;
+    }
+    .bottom{
+        justify-content: left;
+        margin-left:-20px;
+    }
+}
+
+@media only screen and (min-width:1250px){ 
+    body{
+        margin: 0;
+       padding:0;
+       box-sizing: border-box;
+    }
+    .header{
+        display: flex;
+       flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    #logo{
+        height: 40px;
+        margin-right:-40px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        margin-left: 420px;
+    }
+    .icons img{
+        margin-left: 45px;
+        height: 22px;
+        margin-bottom: -15px;;
+    }
+    .discover p{
+        margin-left:30px;
+    }
+    .people p{
+        margin-left:35px;
+    }
+    .learning p{
+        margin-left:36px;
+    }
+    .job-icon p{
+        margin-left:46px;
+    }
+    .icons hr{
+        margin-left:20px
+    }
+    .join-now{
+        display: flex;
+        flex-direction: row;
+       margin-left:20px;
+       margin-top: -2px;;
+    }
+    .join-2 p{
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 97%;
+    }
+    
+     #signin{
+        margin-top: 5px;
+        color: #0a66c2;
+        background-color: #fff;
+        border: 2px solid #0a66c2;
+        padding: 10px;
+        border-radius: 20px;
+        width: 100px;
+        font-weight: bold;
+     }
+     .phone-line{
+         margin-left: 30px;
+     }
+    .topwrap{
+        display: grid;
+        grid-template-columns: 550px 300px;
+        justify-content:left;
+        margin-left:380px;
+    }
+    #Username{
+        height:25px ;
+        width: 350px;
+        margin-bottom:10px ;
+        padding:10px ;
+        border: 1px solid #666666;
+        border-radius: 1px;
+        outline: none;
+        transition: 0.5s;
+    }
+    #Username:focus{
+        border: 1px solid #2977c9;
+    }
+    #password{
+        height: 25px ;
+        width:350px ;
+        margin-bottom: 20px;
+        padding:10px ;
+        border: 1px solid #666666;
+        border-radius: 1px;
+        outline: none;
+        transition: 0.5s;
+    }
+    #password:focus{
+        border: 1px solid #2977c9;
+    }
+    .form a{
+        font-family: sans-serif;
+        color: #191919;
+        text-decoration: none;
+        font-size: 100;
+    }
+    .form a:hover{
+        text-decoration: underline;
+    }
+    #sign-2{
+        height: 55px ;
+        width:370px ;
+        margin-top: 15px;
+        margin-bottom:45px ;
+        color: #fff;
+        background-color:#2977c9 ;
+        border: 1px solid #2977c9 ;
+        border-radius: 50px ;
+        font-size:larger;
+        font-family: sans-serif;
+    }
+    #top-right{
+        height:560px;
+        margin-top:50px;
+        margin-left:50px;
+    }
+    .rec-1{
+        display: grid;
+        grid-template-columns: 400px 500px;
+        grid-gap:80px;
+        background-color: #f3f2f0;
+        height: 400px;
+        padding-left: 380px;
+    }
+    .topics button{
+        height: 54px ;
+        padding: 17px;
+        margin: 6px;
+        border: 1px solid #3d3d3c ;
+        border-radius: 30px;
+        color: #3d3d3c ;
+        background-color: #f3f2f0;
+        font-size: large;
+    }
+    .rec-2{
+        display: grid;
+        grid-template-columns: 400px 650px;
+        grid-gap:80px;
+        background-color: #ffffff;
+        height: 400px;
+        padding-left: 380px;
+    }
+    .searches button{
+        height: 54px ;
+        padding: 17px;
+        margin: 6px;
+        border: 1px solid #404040;
+        border-radius: 30px;
+        color:#404040 ;
+        background-color: #ffffff;
+        font-size: large;
+    }
+    .rec-3{
+        display: grid;
+        grid-template-columns: 400px 650px;
+        grid-gap:80px;
+        background-color: #f1ece5;
+        height: 300px;
+        padding-left: 380px;
+        width:1523px;
+    }
+    .postjob button{
+        height: 54px ;
+        padding: 17px;
+        margin: 6px;
+        border: 1px solid #0a66c2;
+        border-radius: 30px;
+        color:#0a66c2 ;
+        background-color: #f1ece5;
+        font-size: large;
+        margin-top:210px;
+    }
+    #job{
+        margin-top:80px;
+        margin-left:30px;
+    }
+    .rec-4{
+        display: grid;
+        grid-template-columns: 560px 350px;
+        grid-gap:240px;
+        background-color: #f3f2f0;
+        height: 800px;
+        padding-left: 380px;
+        width:1522px;
+    }
+    #people-image{
+        margin-left: 0px;
+    }
+    .letright p{
+        font-family: sans-serif;
+        color: #181818;
+        font-size: 170%;
+        font-weight: 100;
+    }
+    #people-image{
+        height: 400px ;
+        width: 420px ;
+        margin-top: 200px;
+    }
+    .rec-5{
+        display: grid;
+        grid-template-columns: 550px 550px;
+        grid-gap:240px;
+        background-color: #ffffff;
+        height: 600px;
+        padding-left: 380px;
+    }
+    #connect{
+       height: 250px ;
+       margin-top: 100px;
+       margin-left: 0px;
+    }
+    .connect button{
+        height: 54px ;
+        padding: 19px;
+        padding-bottom: 40px;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin: 6px;
+        border: 1px solid #404040;
+        border-radius: 30px;
+        color:#404040 ;
+        background-color: #ffffff;
+        font-size: large;
+    }
+    #find{
+        margin-left:10px;
+        margin-top:-1px;
+     } 
+    #learn-skill{
+        height: 250px;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .learn select{
+        height: 59px ;
+        padding: 17px;
+        padding-right: 25px;
+        margin: 6px;
+        border: 1px solid #404040;
+        border-radius: 1px;
+        color:#404040;
+        background-color: #ffffff;
+        font-size: large;
+        margin-left: 0px;
+    }
+    .connect h2{
+        margin-left: 0px;
+    }
+    .learn h2{
+        margin-left: 0px;
+    }
+    #skill{
+        margin-left: 0px;
+    }
+    .wide-pic{
+        display: contents;
+        width:100%;
+    }
+    .join{
+        display: grid;
+        justify-content: left;
+        margin-left: 380px;
+        position: absolute;  
+        margin-bottom: -30px;
+    }
+    .join button{
+        height: 54px;
+        width:180px;
+        padding: 17px;
+        margin: 6px;
+        border: 1px solid #191919;
+        border-radius: 30px;
+        color:#ffffff ;
+        background-color: #191919;
+        font-size: large;
+    }
+    #wide-pic{
+        width: 1900px;
+        margin-bottom: 10px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #f3f2f0 ;
+        height:350px;
+        padding-top: 30px;
+        width:2003px;
+        margin-left: -100px;
+    }
+    #logo-footer{
+        height: 37px ;
+        width: 130px;
+        background-color:#f3f2f0;
+        margin-right: 100px;
+        margin-left:130px;
+    }
+    .footer p{
+        font-size: 100%;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .general{
+      margin-right: 140px;
+      margin-left: 60px;
+    }
+    .general a{
+        text-decoration: none;
+        margin-bottom: 10px;
+        color: #616160;
+        font-size: 91% ;
+        font-family: sans-serif;
+        font-weight:bold ;
+    }
+    .browse{
+        margin-right: 140px;
+    }
+    .browse a{
+        text-decoration: none;
+        margin-bottom: 10px;
+        margin-top: -10px;
+        color: #616160;
+        font-size: 91% ;
+        font-family: sans-serif;
+        font-weight:bold ;
+    }
+    .business-solutions{
+        margin-right: 140px;
+    }
+    .business-solutions a{
+        text-decoration: none;
+        margin-bottom: 10px;
+        margin-top: -10px;
+        color: #616160;
+        font-size: 91% ;
+        font-family: sans-serif;
+        font-weight:bold ;
+    }
+    .directories{
+        margin-right: 120px;
+    }
+    .directories a{
+        text-decoration: none;
+        margin-bottom: 10px;
+        margin-top: -10px;
+        color: #616160;
+        font-size: 91% ;
+        font-family: sans-serif;
+        font-weight:bold ;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: -59px;
+    }
+    .logo-also{
+        display: contents;
+        margin-left: 0px;
+    }
+    #logobw-1{
+       margin-top: 8px;
+       margin-left:0px;
+       height: 30px;
+    }
+    .others{
+        margin-left: 0px;
+    }
+    .bottom p{
+        font-family: sans-serif;
+        font-size: 81%;
+        font-weight: 500;
+        color: #3a2721;
+    }
+    .others-phone-wrap{
+        display: none;
+    }
+    .welcome-head h2{
+        font-size: 330%;
+    }
+    .join h2{
+        font-size: 400%;
+    }
+}    
